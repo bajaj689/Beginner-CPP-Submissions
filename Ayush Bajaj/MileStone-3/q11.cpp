@@ -1,5 +1,5 @@
 #include<iostream>
-
+#include <cmath>
 
 using namespace std;
 
@@ -17,12 +17,19 @@ int main(){
 
 	lastDigit = num%10;
 
-	//12354
+	/*
 	while(num >= 10){
 		num/=10; 
 	}
+	*/
 
 	firstDigit = num;
+
+	//Logic 2 to find first digit
+	//To find first digit we have simple formula firstDigit = n / pow(10, digits - 1). Where digits is total number of digits in given number.
+	int digits = (num == 0) ? 1 : log10(num)+1;
+	firstDigit = num / pow(10,digits-1);
+
 	cout <<  "First Digit is " << firstDigit << endl;
 	cout <<  "Last Digit is " << lastDigit << endl;
 
@@ -31,3 +38,5 @@ int main(){
 	return 0;
 
 }
+
+
