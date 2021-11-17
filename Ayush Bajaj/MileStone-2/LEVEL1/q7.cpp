@@ -1,19 +1,18 @@
-
-
-
 #include<iostream>
 #include<cstdlib>
 using namespace std;
 
 
+//Problem 4 :Write a program to print absolute vlaue of a number entered by user
+//
 int main(){
 
-
-
-//Problem 4 :Write a program to print absolute vlaue of a number entered by user
-	int num;
+	double num;
 	cin >> num;
-	cout << abs(num) << endl;
 
-	cout << (-1)*(num) << endl;
+	if(num < 0){
+		//cout << abs(num) << endl;
+		cout << (-1)*(num) << endl;
+	}else
+		cout << num;
 }

@@ -12,22 +12,17 @@ int main(){
 	//Judge and print total cost for user.
 	//
 
-	int quantity;
-	cin >> quantity;
+	int years_of_service = 0;
+	double salary = 0;
+	cout << "Enter the years of service and salary";
+	cin >> years_of_service >> salary;
 
-	int total_price = 100*quantity;
-	if(total_price > 1000){
-
-		//cout << total_price - ((total_price * 10)/100);  //data loss
-		cout << total_price - (total_price * 10.0/100); //precision
-
-	}
-	else
-
-		cout << total_price <<endl;
+	double bonus = 0;
+	if(years_of_service > 5)
+		bonus = salary * (5.0/100);
 
 
-
+	cout << "Bonus is " << bonus << endl;
 	return 0;
 
 }
