@@ -32,8 +32,20 @@ int main(){
 
 	cout <<  "First Digit is " << firstDigit << endl;
 	cout <<  "Last Digit is " << lastDigit << endl;
-
 	cout <<  "Sum of First and Last Digit is " << firstDigit + lastDigit << endl;
+
+	//Logic 3:
+	/*int first = num; 
+	while(num > 0){
+		
+		first = num;
+		num /= 10;
+		
+	}
+
+	cout << "First digit is " << first << endl;*/
+	
+
 
 	return 0;
 
