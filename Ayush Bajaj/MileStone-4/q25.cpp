@@ -20,6 +20,10 @@ int main() {
         smallerNum = num2;
     }
 
+    /*Logic 2 to find max and min:
+ 	int max = num1 > num2 ? num1: num2;
+    int min = (num1+num2)-max;*/
+
     int i = 1;
     int LCM = largerNum;
     while(true){
@@ -35,3 +39,6 @@ int main() {
     cout << LCM; 
     return 0;
 }
+
+/*Approach 2: lcm = num1*num2/ hcf*/
+
