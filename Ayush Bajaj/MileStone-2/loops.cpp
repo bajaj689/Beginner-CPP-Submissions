@@ -13,6 +13,12 @@ using namespace std;
    Used when its known how many times loops should run
    Ex: Reading array,
 
+while
+1) when large number of stmts in  {} then logic of while is more difficult to track/read as compared to for
+2) if extra variable is not needed.
+
+for
+:)
 
 for(init; test; post-iteration stmt){
 stmt;
@@ -35,6 +41,7 @@ stmt;
 
 
     continue; //evaluates part 3 before checking part 2
+    //part 4 //skipped
 
    }
 */

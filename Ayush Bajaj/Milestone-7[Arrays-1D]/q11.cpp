@@ -8,7 +8,7 @@ int main(){
 	int n;
 	cin >> n;
 
-	int arr[n];
+	char arr[n];
 	cout << "Enter the elements : " << endl;
 
 	for(int index=0; index<n; index++){
@@ -39,6 +39,13 @@ int main(){
 		
 		cout << "Element " << arr[i] << " occurs " << count << " times " << endl;
 	}
+
+
+	//Approach 2:
+	//Using frequency array of same size. But freqeuncy is maintained in corresponding index. So it works for all array types
+	//
+	//Approach 3:
+	//Hash map
 
 }
 

@@ -11,10 +11,16 @@ A)
 
 
 B) Switch case evaluates EQUALITY only between switch expression and each of the case label expression
-Like if(name="Ayush") else if(name="King")else if()....
+Like if(name=="Ayush") else if(name=="King")else if()....
 So when comparing(equating) a variable with a set of values for equality , use the switch case
 
 C) Switch case is faster than if-else ladder
+
+D) TIP TO REM SWITCH CASE:
+switch(cv_expr){
+
+	case c_expr:
+}
 
 */
 
