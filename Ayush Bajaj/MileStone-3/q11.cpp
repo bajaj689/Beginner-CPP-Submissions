@@ -18,7 +18,7 @@ int main(){
 	lastDigit = num%10;
 
 	/*
-	while(num >= 10){
+	while(num > 10){
 		num/=10; 
 	}
 	*/
