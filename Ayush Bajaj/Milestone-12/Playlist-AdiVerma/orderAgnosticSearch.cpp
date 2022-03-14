@@ -65,7 +65,7 @@ int main(){
 		cin >> target;
 
 		int si = -1;
-		if(nums[0] <= nums[n-1]){
+		if(nums[0] <= nums[n-1]){ //Take any 2 elements of the array actually to deduce the order
 			si = searchInAsc(nums,target);
 		}else{
 			si = searchInDesc(nums,target);
