@@ -12,7 +12,11 @@ int main() {
 	while(power--)
 		result *= num;
 
-	cout << "Answer is " << result; 
+	cout << "Answer is " << result;
+
+
+	
+ 
 	return 0;
 
 }
